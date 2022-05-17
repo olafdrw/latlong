@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "latlong.cma"
+archive(native) = "latlong.cmxa"
+plugin(byte) = "latlong.cma"
+plugin(native) = "latlong.cmxs"

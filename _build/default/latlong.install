@@ -1,0 +1,15 @@
+lib: [
+  "_build/install/default/lib/latlong/META"
+  "_build/install/default/lib/latlong/dune-package"
+  "_build/install/default/lib/latlong/latlong.a"
+  "_build/install/default/lib/latlong/latlong.cma"
+  "_build/install/default/lib/latlong/latlong.cmi"
+  "_build/install/default/lib/latlong/latlong.cmt"
+  "_build/install/default/lib/latlong/latlong.cmx"
+  "_build/install/default/lib/latlong/latlong.cmxa"
+  "_build/install/default/lib/latlong/latlong.ml"
+  "_build/install/default/lib/latlong/opam"
+]
+libexec: [
+  "_build/install/default/lib/latlong/latlong.cmxs"
+]

@@ -1,0 +1,26 @@
+(lang dune 3.1)
+(name latlong)
+(sections (lib .) (libexec .))
+(files
+ (lib
+  (META
+   dune-package
+   latlong.a
+   latlong.cma
+   latlong.cmi
+   latlong.cmt
+   latlong.cmx
+   latlong.cmxa
+   latlong.ml
+   opam))
+ (libexec (latlong.cmxs)))
+(library
+ (name latlong)
+ (kind normal)
+ (archives (byte latlong.cma) (native latlong.cmxa))
+ (plugins (byte latlong.cma) (native latlong.cmxs))
+ (native_archives latlong.a)
+ (main_module_name Latlong)
+ (modes byte native)
+ (modules
+  (singleton (name Latlong) (obj_name latlong) (visibility public) (impl))))
